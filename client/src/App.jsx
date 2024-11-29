@@ -1,9 +1,9 @@
-import { Button } from "@/components/ui/button"
+import AuthForm from "./pages/Auth"
 
 export default function Home() {
   return (
     <div>
-      <Button>Click me</Button>
+ <AuthForm/>
     </div>
   )
 }
